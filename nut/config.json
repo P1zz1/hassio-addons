@@ -3,6 +3,7 @@
   "version": "0.1",
   "slug": "nut",
   "description": "Manage Uninterruptible Power Supplies",
+  "arch": ["armhf", "armv7", "aarch64", "i386", "amd64"],
   "startup": "before",
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "ports": {
